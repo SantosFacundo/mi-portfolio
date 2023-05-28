@@ -1,0 +1,159 @@
+/* ESTE ES EL RESET */
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+body{
+  background: rgb(196, 196, 196);
+  background: linear-gradient(
+    90deg,
+    rgba(196, 196, 196, 0.5886729691876751) 0%,
+    rgba(0, 0, 0, 0.5410539215686274) 100%
+  );
+  background-attachment: fixed;
+}
+
+.title{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+
+}
+
+p{
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 1px;
+}
+
+.nav-styles li{
+  color: black;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+
+/*CSS MAIN*/
+main {
+  min-height: 100vh;
+  width: 70vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  height: 100%;
+}
+
+.info-main{
+ width: 50%;
+}
+
+.img-main {
+  width: 30%;
+  margin-left: 20rem;
+}
+
+.text-container{
+  width: 50%;
+}
+
+/*CSS NOTICIAS*/
+
+.main-noticias {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.titulo-noticias {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.div-container {
+  display: flex;
+  justify-content: space-around;
+  background: black;
+  color: white;
+  width: 100%;
+}
+
+.div-noticias {
+  height: 300px;
+  background-color: rgba(95, 86, 86, 0.486);
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*CSS SERVICIOS Y PRODUCTOS*/
+
+.main-servicios {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.titulo-servicios {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  background: black;
+  color: white;
+  width: 100%;
+}
+
+.div-servicios {
+  height: 300px;
+  background-color: rgba(95, 86, 86, 0.486);
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+/*RESPONSIVE
+@media (min-width: 426px) {
+  código
+}
+max-width: 480px 
+*/
+
+footer{
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+
+
+}
+
+.info{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.info p{
+  margin: 0 auto;
+  padding-left: 1rem;
+
+
+}
+
+.redes-sociales a{
+  text-decoration: none;
+  color: black;
+  margin: 0.3rem;
+  font-size: 1.5rem;
+}
+
