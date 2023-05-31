@@ -1,4 +1,4 @@
-/* ESTE ES EL RESET */
+s/* ESTE ES EL RESET */
 * {
   margin: 0;
   padding: 0;
@@ -20,13 +20,15 @@ body{
 /* CSS DEL HEADER */
 
 .nav-styles li{
-  color: black;
-}
+  list-style-type: none;
+  color: black
+ }
 
 a{
   text-decoration: none;
   color: black;
 }
+
 
 /*CSS MAIN*/
 main {
@@ -67,29 +69,24 @@ p{
 
 /*CSS NOTICIAS*/
 
-.main-noticias {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.conteiner-general{
+  text-align: center; /* Centra el título horizontalmente */
+  margin-bottom: 20px; /* Agrega un espacio inferior al título (ajusta según necesites) */
 }
 
-
-.div-container {
-  display: flex;
-  justify-content: space-around;
-  background: black;
-  color: white;
-  width: 100%;
+.contenedor-imagenes {
+   display: flex;
+   justify-content: center;
+   position: relative;
 }
 
-.div-noticias {
-  height: 300px;
-  background-color: rgba(95, 86, 86, 0.486);
-  width: 25%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.contenedor-imagenes img {
+width: 350px;
+margin: 0.5rem;
+height: 350px; /* Establece la altura deseada para las imágenes */
+object-fit: cover; /* Ajusta la imagen para que se ajuste al tamaño de la caja sin deformarse */
 }
+
 
 /*CSS SERVICIOS*/
 
@@ -117,18 +114,6 @@ p{
   align-items: center;
 }
 
-/*
-.info{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.info p{
-  margin: 0 auto;
-  padding-left: 1rem;
-}
-*/
 
 
 /* ESTILOS DE FOOTER */
@@ -148,3 +133,13 @@ footer{
   font-size: 1.5rem;
 }
 
+.info{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.info p{
+  margin: 0 auto;
+  padding-left: 1rem;
+}
