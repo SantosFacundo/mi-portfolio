@@ -1,0 +1,27 @@
+/*CSS NOTICIAS*/
+/*hacer una transicion/animacion*/
+.noticias__title {
+   text-align: center;
+   margin: 1;
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 800;
+ }
+
+
+.conteiner-general{
+    text-align: center; 
+    margin-bottom: 20px;
+  }
+  
+  .contenedor-imagenes {
+     display: flex;
+     justify-content: center;
+     position: relative;
+  }
+  
+  .contenedor-imagenes img {
+  width: 350px;
+  margin: 0.5rem;
+  height: 350px; 
+  object-fit: cover; 
+  }

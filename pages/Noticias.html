@@ -4,53 +4,47 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- META DESCRIPTION/KEYWORDS -->
+    <meta name="description" content="FS TRAINER sitio de entranamiento que te permitira mejorar tu rendimiento y alcanzar tus objetivos con nuestras rutinas personalizadas, consejos nutricionales y programas.">
+    <meta name="keywords" content="musculacion, bienestar, flexibilidad, velocidad, entrenamiento, rutinas">
+
     <!-- CSS DE BOOTSTRAP -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
-      crossorigin="anonymous"
-    />
-    <!-- CSS MI-ESTILO  -->
-    <link rel="stylesheet" href="../css/mi-estilo/style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"  rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous"/>
+
+    <!-- CSS  -->
+    <link rel="stylesheet" href="../css/main.css" />
+
     <!-- FOTO ICO -->
-    <link
-      rel="shortcut icon"
-      href="../assets/image/foto.ico.png"
-      type="image/x-icon"
-    />
+    <link rel="shortcut icon" href="../assets/image/foto.ico.png" type="image/x-icon" />
+
     <!-- FUENTE MONTSERRAT GOOGLE FONTS -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet" />
+
     <title>FS.TRAINER</title>
+  
   </head>
 
   <body>
-    <!-- HEADER CON BOOTSTRAP -->
-    <header class="container-fluid">
-      <div class="row align-items-center">
-        <img
-          class="col-1"
-          src="../assets/image/kettbell.png"
-          alt="imagen kettbell"
-        />
-        <h1 class="title col"><a href="../index.html">FS TRAINER</a></h1>
-        <nav class="col text-center">
-          <ul class="nav-styles row align-items-center">
-            <a class="col" href="./Sobre-mi.html">
+    <!-- REEMPLAZANDO  BOOTSTRAP POR SASS EN EL HEADER -->
+    <header>
+      <div class="contenedor">
+        <img class="contenedor__img" src="../assets/image/kettbell.png" alt="imagen kettbell" />
+        <h1 class="contenedor__title"> <a href="../index.html"> FS TRAINER </a> </h1>
+        <nav class="contenedor__nav">
+          <ul class="contenedor__ul">
+            <a class="contenedor__a" href="../pages/Sobre-mi.html">
               <li class="">Sobre mi</li>
             </a>
-            <a class="col" href="./Noticias.html">
+            <a class="contenedor__a" href="../pages/Noticias.html">
               <li class="">Noticias</li>
             </a>
-            <a class="col" href="./Servicios.html">
+            <a class="contenedor__a" href="../pages/Servicios.html">
               <li class="">Servicios</li>
             </a>
-            <a class="col" href="./Contacto.html">
+            <a class="contenedor__a" href="../pages/Contacto.html">
               <li class="">Contacto</li>
             </a>
           </ul>
@@ -58,9 +52,9 @@
       </div>
     </header>
 
-    <main class="main-noticias">
+    <main class="main__noticias">
       <div class="conteiner-general">
-        <h2 class="title">NOTICIAS</h2>
+        <h2 class="noticias__title">NOTICIAS</h2>
         <div class="contenedor-imagenes">
           <figure>
             <img src="../assets/image/fuerza.jpg" alt="mujer levantado peso" />
@@ -69,7 +63,7 @@
 
           <figure>
             <img src="../assets/image/nutricion.jpg" alt="imagen de comida" />
-            <figcaption> <p class="text">Tips nutricionales</p> </figcaption>
+            <figcaption><p class="text">Tips nutricionales</p></figcaption>
           </figure>
 
           <figure>

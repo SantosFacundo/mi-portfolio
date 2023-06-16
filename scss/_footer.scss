@@ -1,0 +1,28 @@
+/* ESTILOS DE FOOTER */
+footer{
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .redes-sociales a{
+    text-decoration: none;
+    color: black;
+    margin: 0.3rem;
+    font-size: 1.5rem;
+  }
+  
+  .info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  
+  .info p{
+    margin: 0 auto;
+    padding-left: 1rem;
+  }
